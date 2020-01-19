@@ -41,13 +41,13 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>SISFODASIS</span></a>
+              <a href="index.html" class="site_title"><i class="fa fa-google-wallet"></i><span> SISFODASIS</span></a>
             </div>
             <div class="clearfix"></div>
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="{{ asset('assets/images/img.jpg') }}" alt="..." class="img-circle profile_img">
+                <img src="{{ asset('assets/images/pro.jpg') }}" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Welcome,</span>
@@ -98,45 +98,65 @@
           </div>
         </div>
         <div class="right_col" role="main">
+          <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <h3>SISFODASIS <small>Sistem Informasi Data Siswa</small></h3>
+              </div>
+          </div>
           <!-- top tiles -->
           <div class="row">
+            <div class="col-md-12 col-sm-12">
             <div class="tile_count">
-              <div class="col-md-2 col-sm-3  tile_stats_count">
-                <span class="count_top"><i class="fa fa-user"></i> Total Siswa</span>
-                <div class="count">2500</div>
-                <span class="count_bottom"><i class="green">4% </i> From last Week</span>
+              <div class="col-xl-4 col-md-2">
+                <div class="tile-stats">
+                  <span class="count_top"><h2 align="center">Total Siswa</h2></span>
+                  <div class="count green col" align="center">
+                    2,500
+                    <i class="fa fa-mortar-board center"></i>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-2 col-sm-3  tile_stats_count">
-                <span class="count_top"><i class="fa fa-user"></i> Total Guru</span>
-                <div class="count green">2,500</div>
-                <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+              <div class="col-xl-4 col-md-2">
+                <div class="tile-stats">
+                  <span class="count_top"><h2 align="center">Rerata Nilai</h2></span>
+                  <div class="count green col" align="center">
+                    2,500
+                    <i class="fa fa-bar-chart"></i>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-2 col-sm-3  tile_stats_count">
-                <span class="count_top"><i class="fa fa-user"></i> Total Mapel</span>
-                <div class="count green">2,500</div>
-                <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+              <div class="col-xl-4 col-md-2">
+                <div class="tile-stats">
+                  <span class="count_top"><h2 align="center">Total Mapel</h2></span>
+                  <div class="count green col" align="center">
+                    2,500
+                    <i class="fa fa-book"></i>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-2 col-sm-3  tile_stats_count">
-                <span class="count_top"><i class="fa fa-user"></i> Total Kelas</span>
-                <div class="count">4,567</div>
-                <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span>
+              <div class="col-xl-4 col-md-2">
+                <div class="tile-stats">
+                  <span class="count_top"><h2 align="center">Total Kelas</h2></span>
+                  <div class="count green col" align="center">
+                    2,500
+                    <i class="fa fa-home"></i>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-2 col-sm-3  tile_stats_count">
-                <span class="count_top"><i class="fa fa-user"></i> Rerata Nilai</span>
-                <div class="count">2,315</div>
-                <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+              <div class="col-xl-4 col-md-2">
+              </div>
+              <div class="col-xl-4 col-md-2">
+                <div class="tile-stats">
+                  <span class="count_top"><h2 align="center">Total Guru</h2></span>
+                  <div class="count green col" align="center">
+                    2,500
+                    <i class="fa fa-users"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12 col-sm-12 ">
-                <div class="row">
-                  <div class="col-md-12">
-                    <h3>SISFODASIS <small>Sistem Informasi Data Siswa</small></h3>
-                  </div>
-                
-              </div>
-            </div>
+          
           </div>
           <br />
           <div class="row">
@@ -145,6 +165,7 @@
             </div>
           </div>
         </div>
+      </div>
     <!-- jQuery -->
     <script src="{{ asset('assets/vendors/jquery/dist/jquery.min.js') }}"></script>
     <!-- Bootstrap -->
