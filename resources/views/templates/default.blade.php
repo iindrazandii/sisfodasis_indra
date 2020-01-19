@@ -63,11 +63,11 @@
               <div class="menu_section">
                 <h3>Dashboard</h3>
                 <ul class="nav side-menu">
-                  <li><a href="/dasis"><i class="fa fa-users"></i> Data Siswa</a></li>
-                  <li><a href="/dakel"><i class="fa fa-dashboard"></i> Data Kelas</a></li>
-                  <li><a href="/dagur"><i class="fa fa-dashboard"></i> Data Guru</a></li>
-                  <li><a href="/dapel"><i class="fa fa-dashboard"></i> Data Pelajaran</a></li>
-                  <li><a href="/danilai"><i class="fa fa-dashboard"></i> Data Nilai</a></li>
+                  <li><a href="/dasis"><i class="fa fa-mortar-board"></i> Data Siswa</a></li>
+                  <li><a href="/dakel"><i class="fa fa-home"></i> Data Kelas</a></li>
+                  <li><a href="/dagur"><i class="fa fa-users"></i> Data Guru</a></li>
+                  <li><a href="/dapel"><i class="fa fa-book"></i> Data Pelajaran</a></li>
+                  <li><a href="/danilai"><i class="fa fa-bar-chart"></i> Data Nilai</a></li>
                 </ul>
               </div>
             </div>
