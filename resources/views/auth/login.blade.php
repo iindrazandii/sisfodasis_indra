@@ -7,11 +7,11 @@
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
+                <div class="card-body animate form login_form login_wrapper">
                     <form method="POST" action="{{ route('login') }}">
-                        @csrf
-
-                        <div class="form-group row">
+                      @csrf
+                      <h1>Login Form</h1>
+                      <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
@@ -23,9 +23,8 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>
-
-                        <div class="form-group row">
+                      </div>
+                      <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
@@ -37,9 +36,8 @@
                                     </span>
                                 @enderror
                             </div>
-                        </div>
-
-                        <div class="form-group row">
+                      </div>
+                      <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
@@ -49,9 +47,8 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
+                      </div>
+                      <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
@@ -63,7 +60,19 @@
                                     </a>
                                 @endif
                             </div>
-                        </div>
+                      </div>
+
+                      <div class="clearfix"></div>
+                      <br>
+                      <div class="col-md-8 offset-md-4">
+                      <div class="separator">
+                        <p class="change_link">New to site?
+                          <a href="#signup" class="to_register"> Create Account </a>
+                        </p>
+                        <div class="clearfix"></div>
+                        <br />
+                      </div>
+                    </div>
                     </form>
                 </div>
             </div>

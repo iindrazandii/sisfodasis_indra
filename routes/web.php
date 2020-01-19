@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('templates.default');
+    return view('welcome');
 });
 
 Route::get('/dasis', 'DasisController@index');
