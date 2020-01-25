@@ -14,6 +14,9 @@
 Route::get('/admin', function () {
     return view('welcome');
 });
+Route::get('/', function () {
+    return view('templates/frontend');
+});
 
 Route::get('/dasis', 'DasisController@index');
 Route::get('/dasis/tambah', 'DasisController@tambah');

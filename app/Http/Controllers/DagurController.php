@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use DB;
 use App\Dagur;
 use App\Dakel;
 
@@ -40,6 +40,17 @@ class DagurController extends Controller
     		'foto' => $request->foto,
     	]);
     	return redirect('/dagur');
+    }
+    public function upload(Request $request){
+        if($request->hasFile('foto')){
+            $resorce       = $request->file('foto');
+            $name   = $resorce->getClientOriginalName();
+            $resorce->move(\base_path() ."/public/images", $name);
+            $save = DB::table('dagur')->insert(['foto' => $name]);
+            echo "Gambar berhasil di upload";
+        }else{
+            echo "Gagal upload gambar";
+        }
     }
     public function edit($id)
     {

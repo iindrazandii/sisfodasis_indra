@@ -1,0 +1,617 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width : 766px) {
+
+
+/* GET IN TOUCH */
+.call-us-text {
+	text-align: center;
+}
+/*  TOP SOCIAL ICON */
+.social-icon {
+	text-align: center;
+	float: none!important;
+}
+
+
+
+/* SLIDER SECTION */
+.slideshow-text {
+	width: 100%; 
+}
+
+
+
+/* TAB WRAP */
+.tab-wrap .nav>li>a {
+	padding: 10px 6px;
+	font-size: 10px;
+}
+
+
+/* Service Section  */
+.left-service-block {
+	padding: 5px;
+}
+.right-intro-block {
+	padding: 15px;
+}
+
+/* Miscellaneous Section  */
+
+.intro-text,
+.service-quote {
+	padding: 30px;
+    margin-right: 0;
+    margin-bottom: 15px
+}
+
+.tab-wrap {
+    padding: 30px;
+    margin-left: 0;
+    margin-bottom: 15px
+}
+
+.count-wrap {
+    padding: 32px;
+    margin-left: 0;
+}
+.count-wrap h3 {
+	font-size: 40px;
+	line-height: 36px;
+	margin-bottom: 15px;
+}
+
+.count-wrap p {
+	font-size: 11px;
+	text-align: left;
+	font-weight: 300;
+}
+
+
+
+
+
+/* Testimonial Section  */
+
+.testimonial-caruosel {
+    margin: 0;
+}
+
+.client-testimonial p {
+	padding: 0 5px;
+}
+
+.testimonial-items-navigation .next{
+    right: 0;
+    height: 50px;
+	width: 50px;
+}
+.testimonial-items-navigation .prev{
+    left: 0;
+    height: 50px;
+	width: 50px;
+}
+
+
+.testimonial-items-navigation .next i, 
+.testimonial-items-navigation .prev i {
+	font-size: 22px;
+	width: 30px;
+	height: 30px;
+	line-height: 28px;
+	margin-top: 10px;
+}
+
+
+
+
+/* Partner Section  */
+.partner-logo-caruosel {
+    margin: 0;
+}
+
+/*HOME PAGE BLOG*/
+.blog-section-home .posts-container {
+	padding: 0 30px;
+}
+
+/* Subscription Section */
+.subscription-section.section-content {
+	padding: 90px 15px;
+}
+
+.subscribe-wrap input[type=email] {
+    width: 100%;
+}
+
+.subscribe-wrap input[type=submit] {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.subscription-text {
+	text-align: center;
+	padding: 0;
+}
+
+.subscribe-wrap {
+    padding: 30px 0 0;
+}
+
+.subscribe-wrap::before {
+	display: none;
+}
+
+.contact-section.section-content {
+	padding: 90px 15px;
+}
+/* Footer Section */
+.copyright-text {
+	text-align: center;
+	padding: 30px 0 0;
+}
+
+
+/*PAGE TITLE*/
+.page-title {
+	padding: 15px;
+	width: 70%;
+}
+.page-title h1 {
+	font-size: 22px;
+	line-height: 18px;
+	font-weight: 700;
+}
+
+.page-title p {
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+
+/*ABOUT US PAGE*/
+
+.mission-wrapper {
+	padding: 90px 15px;
+}
+
+.css-our-mission {
+	margin-bottom: 30px
+}
+
+.about-us-carousel .carousel-caption {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+
+.team-wrapper {
+	padding: 90px 15px;
+}
+.media .team-avatar.pull-left {
+	margin-right: 0;
+}
+
+
+/*SERVICE PAGE*/
+.service-wrapper {
+	padding: 90px 15px;
+}
+
+
+/*BLOG PAGE*/
+.blog-post-wrapper {
+	padding: 15px;
+}
+.blog-pagination {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+.blog-pagination .pagination>li>a, 
+.pagination>li>span {
+	padding: 6px 8px;
+}
+
+.widget {
+	padding: 15px;
+}
+
+
+/*BLOG SINGLE PAGE*/
+.about-author img.pull-left {
+	float: none !important;
+	margin-bottom: 20px;
+}
+
+.comment-author .comment-reply-link {
+	top: 42px ;
+}
+
+
+
+
+}
+
+/* Landscape Mobile */
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+/* GET IN TOUCH */
+.call-us-text {
+	text-align: center;
+}
+/*  TOP SOCIAL ICON */
+.social-icon {
+	text-align: center;
+	float: none!important;
+}
+
+
+/* SLIDER SECTION */
+
+.slideshow-text {
+	width: 100%; 
+}
+
+
+/* TAB WRAP */
+.tab-wrap .nav>li>a {
+	padding: 10px 9px;
+	font-size: 18px;
+}
+
+
+/* Service Section  */
+.left-service-block {
+	padding: 5px;
+}
+.right-intro-block {
+	padding: 15px;
+}
+
+
+
+/* Miscellaneous Section  */
+
+.intro-text,
+.service-quote {
+	padding: 30px;
+    margin-right: 0;
+    margin-bottom: 15px
+}
+
+.tab-wrap {
+    padding: 30px;
+    margin-left: 0;
+    margin-bottom: 15px
+}
+
+.count-wrap {
+    padding: 32px;
+    margin-left: 0;
+}
+.count-wrap h3 {
+	font-size: 72px;
+	line-height: 36px;
+	margin-bottom: 25px;
+}
+
+.count-wrap p {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 400;
+}
+
+
+
+
+/* Testimonial Section  */
+
+.testimonial-caruosel {
+    margin: 0;
+}
+
+.client-testimonial p {
+	padding: 0 10px;
+}
+
+.testimonial-items-navigation .next{
+    right: 0;
+}
+.testimonial-items-navigation .prev{
+    left: 0;
+}
+
+
+/* Partner Section  */
+.partner-logo-caruosel {
+    margin: 0;
+}
+
+/*HOME PAGE BLOG*/
+.blog-section-home .posts-container {
+	padding: 0 30px;
+}
+
+/* Subscription Section */
+.subscription-section.section-content {
+	padding: 90px 15px;
+}
+
+.subscribe-wrap input[type=email] {
+    width: 100%;
+}
+
+.subscribe-wrap input[type=submit] {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.subscription-text {
+	text-align: center;
+	padding: 0;
+}
+
+.subscribe-wrap {
+    padding: 30px 0 0;
+}
+
+.subscribe-wrap::before {
+	display: none;
+}
+
+
+
+.contact-section.section-content {
+	padding: 90px 15px;
+}
+
+
+/* Footer Section */
+.copyright-text {
+	text-align: center;
+	padding: 30px 0 0;
+}
+
+
+
+/*PAGE TITLE*/
+.page-title {
+	padding: 30px;
+}
+.page-title h1 {
+	font-size: 25px;
+	line-height: 26px;
+	font-weight: 700;
+}
+
+.page-title p {
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 16px;
+}
+
+
+/*ABOUT US PAGE*/
+
+.mission-wrapper {
+	padding: 90px 15px;
+}
+
+.css-our-mission {
+	margin-bottom: 30px
+}
+
+
+.team-wrapper {
+	padding: 90px 15px;
+}
+
+.media .team-avatar.pull-left {
+	float: none!important;
+	margin-right: 0;
+}
+
+
+/*SERVICE PAGE*/
+.service-wrapper {
+	padding: 90px 15px;
+}
+
+/*BLOG PAGE*/
+.blog-post-wrapper {
+	padding: 15px;
+}
+.blog-pagination {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+.widget {
+	padding: 15px;
+}
+
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+
+/* SLIDER SECTION */
+
+
+/* Service Section  */
+.left-service-block {
+	padding: 0 15px;
+}
+.right-intro-block {
+	padding: 0 15px;
+	border-left: 0;
+}
+
+
+
+/* Miscellaneous Section  */
+
+.intro-text,
+.service-quote {
+	padding: 30px;
+    margin-right: 0;
+    margin-bottom: 15px
+}
+
+.tab-wrap {
+    padding: 30px;
+    margin-left: 0;
+    margin-bottom: 15px
+}
+
+.count-wrap {
+    padding: 32px;
+    margin-left: 0;
+}
+
+/*HOME PAGE BLOG*/
+.blog-section-home .posts-container {
+	padding: 0 30px;
+}
+
+
+
+/* Subscription Section */
+
+.subscription-section.section-content {
+	padding: 90px 15px;
+}
+
+.subscribe-wrap input[type=email] {
+    width: 70%;
+}
+
+.subscription-text {
+	text-align: center;
+	padding: 0;
+}
+
+.subscribe-wrap {
+    padding: 30px 0 0;
+}
+
+.subscribe-wrap::before {
+	display: none;
+}
+
+.contact-section.section-content {
+	padding: 90px 15px;
+}
+/* Footer Section */
+.copyright-text {
+	text-align: center;
+	padding: 30px 0 0;
+}
+
+
+/*ABOUT US PAGE*/
+.mission-wrapper {
+	padding: 90px 30px;
+}
+
+.css-our-mission {
+	margin-bottom: 30px
+}
+
+.team-wrapper {
+	padding: 90px 30px;
+}
+
+.media .team-avatar.pull-left {
+	float: none!important;
+	margin-right: 0;
+}
+
+
+/*SERVICE PAGE*/
+.service-wrapper {
+	padding: 90px 30px;
+}
+
+
+/*BLOG PAGE*/
+.blog-post-wrapper {
+	padding: 15px;
+}
+.blog-pagination {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.widget {
+	padding: 15px;
+}
+
+
+}
+
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+/* SLIDER SECTION */
+
+
+/* Service Section  */
+.left-service-block {
+	padding: 0 60px 0 15px;
+}
+.right-intro-block {
+	padding: 0 15px 0 60px;
+}
+
+
+/* Miscellaneous Section  */
+.intro-text,
+.tab-wrap {
+    padding: 30px;
+	min-height:472px;
+}
+
+.service-quote {
+    padding: 30px 40px;
+}
+
+.count-wrap {
+    padding: 32px;
+}
+
+
+/* Subscription Section */
+.subscribe-wrap input[type=email] {
+    width: 60%;
+}
+
+
+
+/*ABOUT US PAGE*/
+
+.media .team-avatar.pull-left {
+	float: none!important;
+	margin-right: 0;
+}
+
+
+
+
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width : 1200px) and (max-width : 1280px) {
+
+
+}
+

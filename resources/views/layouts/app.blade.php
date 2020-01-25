@@ -23,6 +23,7 @@
     <link href="{{ asset('assets/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- Animate.css -->
     <link href="{{ asset('assets/vendors/animate.css/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendors/select2/dist/css/select2.min.css') }}" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">

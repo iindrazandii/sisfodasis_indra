@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="card-box table-responsive card-body">
-            <a href="/danilai" class="btn btn-primary">Kembali</a>
+            <a href="/danilai" class="btn btn-round btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
@@ -17,38 +17,20 @@
  
                         {{ csrf_field() }}
  
-                        <div class="form-group">
-                            <label>Kode Mapel</label>
+                        <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3">Kode Mapel</label>
                             <input type="text" name="kdmapel" class="form-control" placeholder="Kode Mapel ..">
- 
-                            @if($errors->has('kdmapel'))
-                                <div class="text-danger">
-                                    {{ $errors->first('kdmapel')}}
-                                </div>
-                            @endif
                         </div>
-                        <div class="form-group">
-                            <label>NISN</label>
+                        <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3">NISN</label>
                             <input type="text" name="nisn" class="form-control" placeholder="NISN ..">
- 
-                            @if($errors->has('nisn'))
-                                <div class="text-danger">
-                                    {{ $errors->first('nisn')}}
-                                </div>
-                            @endif
                         </div>
-                        <div class="form-group">
-                            <label>Nilai</label>
+                        <div class="item form-group">
+                            <label class="col-form-label col-md-3 col-sm-3">Nilai</label>
                             <input type="text" name="nilai" class="form-control" placeholder="Nilai ..">
- 
-                            @if($errors->has('nilai'))
-                                <div class="text-danger">
-                                    {{ $errors->first('nilai')}}
-                                </div>
-                            @endif
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-success" value="Simpan">
+                            <input type="submit" class="btn btn-round btn-success" value="Simpan">
                         </div>
  
                     </form>
