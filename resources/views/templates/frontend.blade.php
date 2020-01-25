@@ -52,7 +52,7 @@
 										<li class="dropdown"><a href="index.html" >Beranda</a></li> 
 										<li><a href="#">Tentang Kami</a></li>
 										<li><a href="#">Kelas</a></li>
-										<li><a href="#">Mata Pelajaran</a></li>
+										<li><a href="/fmapel">Mata Pelajaran</a></li>
 										<li><a href="#">Kontak</a></li>
 										<span class="support-btn pull-right"> <a href="#">SISFODASIS</a></span>
 									</ul>

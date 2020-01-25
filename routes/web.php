@@ -14,6 +14,9 @@
 Route::get('/admin', function () {
     return view('welcome');
 });
+Route::get('/fmapel', function () {
+    return view('fmapel');
+});
 Route::get('/', function () {
     return view('templates/frontend');
 });
